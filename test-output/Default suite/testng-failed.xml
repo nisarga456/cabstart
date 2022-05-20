@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.orbit.testcases.testinformation">
         <methods>
           <include name="closeBrowser"/>
@@ -13,6 +14,13 @@
           <include name="openBrowser"/>
         </methods>
       </class> <!-- com.orbit.testcases.testinformation -->
+=======
+      <class name="call_service">
+        <methods>
+          <include name="taycan_connect"/>
+        </methods>
+      </class> <!-- call_service -->
+>>>>>>> branch 'master' of https://github.com/nisarga456/cabstart.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
