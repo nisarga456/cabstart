@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.orbit.testcases.testhelp">
+        <methods>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="help"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testhelp -->
+      <class name="com.orbit.testcases.testoffers">
+        <methods>
+          <include name="offers"/>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testoffers -->
+      <class name="com.orbit.testcases.test2edit">
+        <methods>
+          <include name="editrip"/>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.test2edit -->
+      <class name="com.orbit.testcases.test3hold">
+        <methods>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="hold"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.test3hold -->
+      <class name="com.orbit.testcases.test1">
+        <methods>
+          <include name="createtrip"/>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.test1 -->
+      <class name="com.orbit.testcases.testsettings">
+        <methods>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="settings"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testsettings -->
+      <class name="com.orbit.testcases.testrelease">
+        <methods>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="releasetrip"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testrelease -->
+      <class name="com.orbit.testcases.testnotification">
+        <methods>
+          <include name="notification"/>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testnotification -->
+      <class name="com.orbit.testcases.testdispatchers">
+        <methods>
+          <include name="dispatchers"/>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testdispatchers -->
+      <class name="com.orbit.testcases.testmanagement">
+        <methods>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="management"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testmanagement -->
+      <class name="com.orbit.testcases.viewtest">
+        <methods>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="Viewtrip"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.viewtest -->
+      <class name="com.orbit.testcases.testpayment">
+        <methods>
+          <include name="paymentpage"/>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testpayment -->
+      <class name="com.orbit.testcases.testtripspage">
+        <methods>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="tripspage"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testtripspage -->
+      <class name="com.orbit.testcases.testcustomer">
+        <methods>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="customer"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testcustomer -->
+      <class name="com.orbit.testcases.testcartype">
+        <methods>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="cartype"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testcartype -->
+      <class name="com.orbit.testcases.testreviews">
+        <methods>
+          <include name="Reviews"/>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testreviews -->
+      <class name="com.orbit.testcases.testdriver">
+        <methods>
+          <include name="Drivers"/>
+          <include name="Utility"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.orbit.testcases.testdriver -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.orbit.testcases.viewtest"/>
+     <class name="com.orbit.testcases.testhelp"/>
+      <class name="com.orbit.testcases.test2edit"/>
+    <class name="com.orbit.testcases.test1"/>
+     <class name="com.orbit.testcases.testrelease"/>
+   <class name="com.orbit.testcases.test3hold"/>
+      
+     <class name="com.orbit.testcases.testcustomer"/>
+       <class name="com.orbit.testcases.testpayment"/>
+       <class name="com.orbit.testcases.testmanagement"/>
+         <class name="com.orbit.testcases.testsettings"/>
+          <class name="com.orbit.testcases.testnotification"/>
+          <class name="com.orbit.testcases.testcartype"/>
+               <class name="com.orbit.testcases.testoffers"/>
+               <class name="com.orbit.testcases.testdispatchers"/>
+          <class name="com.orbit.testcases.testtripspage"/>
+          <class name="com.orbit.testcases.testdriver"/>
+              <class name="com.orbit.testcases.testreviews"/>     
+           
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+      
+      
+     
+ 
+      
+     
+      
+      
+      
+   
